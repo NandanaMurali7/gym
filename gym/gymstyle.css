@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contactUs__wrapper {
+  padding: 20px;
+}
+
+.hero__description {
+  max-width: 600px;
+}
+
+.hero {
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  height: 100%;
+  height: 800px;
+  background: url(https://www.pixelstalk.net/wp-content/uploads/2016/06/Fitness-free-hd-wallpapers.jpg);
+}
+
+.navbar {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.name {
+  font-size: 1.8rem;
+}
+.navbar__right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.btn {
+  padding: 15px 30px;
+}
+
+li {
+  display: inline;
+  margin-right: 80px;
+}
+.ab {
+  color: white;
+}
+
+.ad {
+  background: url(https://images3.alphacoders.com/608/thumb-1920-608046.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+.ad1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 300px;
+  gap: 80px;
+}
+
+.av {
+  color: white;
+  text-align: center;
+}
+.ay {
+  background: url(https://wallpapercave.com/wp/wp8077684.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  color: white;
+}
+li {
+  display: inline;
+}
+.am {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.img {
+  background: url(https://img.freepik.com/free-photo/portrait-athletic-fitness-male-dressed-sportswear-grey-vignette-background_613910-1086.jpg?t=st=1731340534~exp=1731344134~hmac=20f2170c234964572602796cb1d5d3ff13f59773793c68159f79127f7d3ce712&w=996);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+.img2 {
+  background: url(https://gossclub.com/wp-content/uploads/2022/02/IMG_7055-892x1024.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+.img3 {
+  background: url(https://img.freepik.com/free-photo/attractive-strong-fashionable-sporty-sportive-muscular-man_158595-4630.jpg?t=st=1731339984~exp=1731343584~hmac=7b2050af7208b1b3b75fe9bacb798ff5ae79cacd0280775d6948a5b39f902c0d&w=996);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+.contacts {
+  text-align: center;
+  background-image: url(https://img.freepik.com/free-photo/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background_1048-11333.jpg?size=626&ext=jpg&ga=GA1.1.913439360.1725207806&semt=ais_hybrid);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+  color: white;
+}
+.bg {
+  background-color: rgb(48, 4, 80);
+  width: 800px;
+  height: 600px;
+  text-align: center;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.bg1 {
+  text-align: center;
+  color: white;
+}
+.main2 {
+  background: url(https://images.pexels.com/photos/28080/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+}
+
+.xx {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.xxx {
+  background-color: rgb(33, 33, 86);
+  color: white;
+}
+input {
+  width: 100%;
+  border-radius: 5px;
+  padding: 12px 20px;
+}
+form button {
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 40px;
+  margin: 0 auto;
+}
+form button:hover {
+  background-color: rgb(78, 35, 35);
+}
+input:hover {
+  background-color: rgb(197, 196, 196);
+}
+textarea:hover {
+  background-color: rgb(197, 196, 196);
+}
+.ay button:hover {
+  background-color: rgb(158, 155, 155);
+}
+.btn:hover {
+  background-color: rgb(158, 155, 155);
+}
+.ab {
+  cursor: pointer;
+}
+.btn {
+  cursor: pointer;
+}
+.snd {
+  cursor: pointer;
+}
+.navbar__right a:hover {
+  color: rgb(231, 34, 34);
+}
